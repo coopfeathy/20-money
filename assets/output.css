@@ -588,18 +588,6 @@ video {
   margin-bottom: 1.5rem
 }
 
-.ml-6 {
-  margin-left: 1.5rem
-}
-
-.mt-24 {
-  margin-top: 6rem
-}
-
-.mt-4 {
-  margin-top: 1rem
-}
-
 .ml-2 {
   margin-left: 0.5rem
 }
@@ -608,20 +596,20 @@ video {
   margin-top: 2.5rem
 }
 
+.mt-4 {
+  margin-top: 1rem
+}
+
 .flex {
   display: flex
 }
 
-.h-\[650px\] {
-  height: 650px
+.h-96 {
+  height: 24rem
 }
 
 .h-full {
   height: 100%
-}
-
-.h-96 {
-  height: 24rem
 }
 
 .w-full {
@@ -684,8 +672,9 @@ video {
   padding: 0.75rem
 }
 
-.p-8 {
-  padding: 2rem
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem
 }
 
 .px-5 {
@@ -696,11 +685,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem
 }
 
 .py-8 {
@@ -723,18 +707,13 @@ video {
   line-height: 2.5rem
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
 }
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem
-}
-
-.text-lg {
-  font-size: 1.125rem;
   line-height: 1.75rem
 }
 
@@ -781,16 +760,6 @@ video {
     padding-right: 2rem
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem
@@ -799,6 +768,16 @@ video {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1
   }
 
   .sm\:text-xl {
